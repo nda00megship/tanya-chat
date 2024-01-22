@@ -11,7 +11,7 @@ import java.sql.Timestamp;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-@Document(collection = "messages")
+@Document(collection = "Chat")
 public class Chat {
 
     @Id
